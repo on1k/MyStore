@@ -1,0 +1,13 @@
+D:\Git\Test\MyStore\MyStore.Domain\bin\Debug\MyStore.Domain.dll
+D:\Git\Test\MyStore\MyStore.Domain\bin\Debug\MyStore.Domain.pdb
+D:\Git\Test\MyStore\MyStore.Domain\bin\Debug\System.Web.Mvc.dll
+D:\Git\Test\MyStore\MyStore.Domain\bin\Debug\System.Web.Mvc.xml
+D:\Git\Test\MyStore\MyStore.Domain\bin\Debug\ru\System.Web.Mvc.resources.dll
+D:\Git\Test\MyStore\MyStore.Domain\obj\Debug\MyStore.Domain.csprojResolveAssemblyReference.cache
+D:\Git\Test\MyStore\MyStore.Domain\obj\Debug\MyStore.Domain.dll
+D:\Git\Test\MyStore\MyStore.Domain\obj\Debug\MyStore.Domain.pdb
+D:\Git\Test\MyStore\MyStore.Domain\bin\Debug\MyStore.Domain.dll.config
+D:\Git\Test\MyStore\MyStore.Domain\bin\Debug\EntityFramework.dll
+D:\Git\Test\MyStore\MyStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\Git\Test\MyStore\MyStore.Domain\bin\Debug\EntityFramework.xml
+D:\Git\Test\MyStore\MyStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
