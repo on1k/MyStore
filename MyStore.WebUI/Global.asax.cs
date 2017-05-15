@@ -6,6 +6,8 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using MyStore.Domain.Entites;
+using MyStore.WebUI.Binders;
 
 namespace MyStore.WebUI
 {
@@ -19,6 +21,7 @@ namespace MyStore.WebUI
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             ControllerBuilder.Current.SetControllerFactory(new NinjectControllerFactory());
+            ModelBinders.Binders.Add(typeof(Cart), new CartModelBinder());
         }
     }
 }

@@ -9,6 +9,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using MyStore.Domain.Concrete;
+using System.Configuration;
 
 namespace MyStore.WebUI.Infrastructure
 {
@@ -29,6 +30,11 @@ namespace MyStore.WebUI.Infrastructure
         private void AddBindings()
         {
             ninjectKernel.Bind<IProductRepository>().To<EFProductRepository>();
+            EmailSettings emailSettings = new EmailSettings
+            {
+                WriteAsFile = bool.Parse(ConfigurationManager.AppSettings["Email.WriteAsFile"] ?? "false")
+            };
+            ninjectKernel.Bind<IOrderProcessor>().To<EmailOrderProcessor>().WithConstructorArgument("settings", emailSettings);
         }
     }
 }

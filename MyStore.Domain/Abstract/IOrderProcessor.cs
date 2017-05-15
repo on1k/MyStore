@@ -7,10 +7,8 @@ using System.Threading.Tasks;
 
 namespace MyStore.Domain.Abstract
 {
-    public interface IProductRepository
+    public interface IOrderProcessor
     {
-        IQueryable<Product> Products { get; }
-        void SaveProduct(Product product);
-        Product DeleteProduct(int productID);
+        void ProcessOrder(Cart cart, ShippingDetails shippingDetails);
     }
 }
